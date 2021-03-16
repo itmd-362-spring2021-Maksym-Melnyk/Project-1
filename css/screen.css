@@ -1,0 +1,56 @@
+html {
+  font-size: 16px;
+  text-align: center;
+  background: rgb(170, 170, 170);
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1.125em; /*18 /16 = 1.125*/
+  line-height: 1.55555em; /*28 /18 =1.55555em */
+  padding: 1em;
+}
+form {
+  padding: 1em;
+  background-color: grey;
+  margin: 1em;
+}
+
+input {
+  background-color: rgb(155, 154, 154);
+  border: transparent;
+}
+
+h1 {
+  font-size: 200%;
+  text-align: center;
+  color: grey;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+
+a {
+  font-size: 30px;
+  padding: 1em;
+  margin: 1em;
+  text-decoration: none;
+}
+
+p {
+  margin: 1em;
+  padding: 1em;
+}
+
+@media screen and (min-width: 600px) {
+  #wrap {
+    display: inline-block;
+    font-size: 150%;
+    text-align: left;
+    justify-content: left;
+  }
+
+  h1 {
+    font-size: 300%;
+  }
+
+  h3 {
+    font-size: 250%;
+  }
+}
