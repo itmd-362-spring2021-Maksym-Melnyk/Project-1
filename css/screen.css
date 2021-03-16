@@ -3,52 +3,46 @@ html {
   text-align: center;
   background: rgb(170, 170, 170);
   font-family: "Noto Sans JP", sans-serif;
-  font-size: 1.125em; /*18 /16 = 1.125*/
-  line-height: 1.55555em; /*28 /18 =1.55555em */
-  padding: 1em;
+  font-size: 1.125em;
+  /*18 /16 = 1.125*/
+  line-height: 1.55555em;
+  /*28 /18 =1.55555em */
+
 }
+
 form {
-  padding: 1em;
+
   background-color: grey;
-  margin: 1em;
+
 }
 
-form {
-  padding: 1em;
-  margin: 1em;
-}
-
-
-input {
-  background-color: rgb(155, 154, 154);
-  border: transparent;
-  margin: 2%;
-  padding: 1%;
-}
-
-h1 {
-  font-size: 200%;
+label {
+  display: block;
+  padding-bottom: 0.25;
   text-align: center;
-  color: black;
-  margin-top: 0.3em;
-  margin-bottom: 0.3em;
+  text-decoration: none;
+  margin-top: 1em;
 }
 
-#wrap {
-  padding: 1%;
+
+
+input{
+  text-align: center;
   margin: 1%;
 }
-
-.name, .email{
-  float: left;
+ul{
+  text-align: center;
 }
 
+h2{
+  margin: 2em 0em 1em 0em;
+  font-size: 30px;
+  background-color: white;
+  padding: 1%;
 
-
-p {
-  margin: 1em;
-  padding: 1em;
+  
 }
+
 
 
 
