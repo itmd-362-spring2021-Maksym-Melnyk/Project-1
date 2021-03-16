@@ -1,49 +1,57 @@
 <!DOCTYPE html>
 <html lang="en" class="nojs">
-  <head>
-    <title>Lab 2</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width,initial-scale=1.0,shrink-to-fit=no"
-    />
-    <link rel="stylesheet" media="screen" href="css/reset.css" />
-    <link rel="stylesheet" media="screen" href="css/screen.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <main>
-      <form
-        action="mailto:someone@example.com"
-        method="post"
-        enctype="text/plain"
-      >
-        Email:<br /><br />
-        <input type="email" name="email" /><br /><br />
-        <label for="phone">Enter a phone number:</label><br /><br />
-        <input
-          type="tel"
-          id="phone"
-          name="phone"
-          placeholder="123-45-678"
-        /><br /><br />
-        Date of Birth:<br /><br />
-        <input type="date" name="date" size="50" /><br /><br />
-        <input type="submit" value="Submit" />
-        <input type="reset" value="Clear" />
-      </form>
-      <a href="https://www.youtube.com/watch?v=bxqLsrlakK8&ab_channel=Revideo"
-        >Do not open!!!
-      </a>
-      <div class="footer" id="foot">
-        <p>2021 Maksym Melnyk | mmelnyk@hawk.iit.edu</p>
-      </div>
-    </main>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/site.js"></script>
-  </body>
+
+<head>
+  <title>Meme platform</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  <link rel="stylesheet" media="screen" href="css/reset.css" />
+  <link rel="stylesheet" media="screen" href="css/screen.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <main>
+    <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+
+        <div id="wrap">
+          <ul class="data">
+            <li>
+              <label for="name">Name:</label>
+              <input id="name" type="text" name="name">
+            </li>
+            <li>
+              <label for="email">Email:</label>
+              <input id="email" type="email" name="email">
+            </li>
+            <li>
+              <label for="birthday">Date of Birth:</label>
+              <input id="birthday" type="date" name="birthday">
+            </li>
+            <li>
+              <label for="phone">Phone Number:</label>
+              <input id="phone" type="number" name="phone">
+            </li>
+            <li id="email-notification">
+              <label for="confirm">Would you like to receive aour newsletter</label>
+              <input id="confirm" type="checkbox" name="confirm">
+            </li>
+            <li id="submit-btn">
+              <input type="submit" value="Submit">
+              <input type="reset" value="Clear">
+            </li>
+          </ul>
+        </div>
+    </form>
+    <a href="https://www.youtube.com/watch?v=bxqLsrlakK8&ab_channel=Revideo">Do not open!!!
+    </a>
+    <div class="footer" id="foot">
+      <p>2021 Maksym Melnyk | mmelnyk@hawk.iit.edu</p>
+    </div>
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/site.js"></script>
+</body>
+
 </html>
