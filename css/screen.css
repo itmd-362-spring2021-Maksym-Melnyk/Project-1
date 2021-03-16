@@ -26,23 +26,26 @@ label {
 
 
 
-input{
+input {
   text-align: center;
   margin: 1%;
 }
-ul{
+
+ul {
   text-align: center;
 }
 
-h2{
+h2 {
   margin: 2em 0em 1em 0em;
   font-size: 30px;
   background-color: white;
   padding: 1%;
-
-  
 }
 
+
+img {
+margin: 2%;
+}
 
 
 
