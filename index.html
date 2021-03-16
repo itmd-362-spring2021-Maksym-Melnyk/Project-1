@@ -12,47 +12,51 @@
 </head>
 
 <body>
+  <header>
+    <h1>Welcome to the meme portal!</h1>
+  </header>
   <main>
+
     <form action="mailto:someone@example.com" method="post" enctype="text/plain">
 
-        <div id="wrap">
-          <ul class="data">
-            <li>
-              <label for="name">Name:</label>
-              <input id="name" type="text" name="name">
-            </li>
-            <li>
-              <label for="email">Email:</label>
-              <input id="email" type="email" name="email">
-            </li>
-            <li>
-              <label for="birthday">Date of Birth:</label>
-              <input id="birthday" type="date" name="birthday">
-            </li>
-            <li>
-              <label for="phone">Cellphone:</label>
-              <input id="phone" type="number" name="phone">
-            </li>
-            <li id="email-notification">
-              <label for="confirm">Would you like to receive our newsletter</label>
-              <input id="confirm" type="checkbox" name="confirm">
-            </li>
-            <li id="submit-btn">
-              <input type="submit" value="Submit">
-              <input type="reset" value="Clear">
-            </li>
-          </ul>
-        </div>
+      <div id="wrap">
+        <ul class="data">
+          <li>
+            <label for="name">Name:</label>
+            <input id="name" type="text" name="name">
+          </li>
+          <li>
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email">
+          </li>
+          <li>
+            <label for="birthday">Date of Birth:</label>
+            <input id="birthday" type="date" name="birthday">
+          </li>
+          <li>
+            <label for="phone">Phone:</label>
+            <input id="phone" type="number" name="phone">
+          </li>
+          <li id="email-notification">
+            <label for="confirm">Would you like to receive our newsletter?</label>
+            <input id="confirm" type="checkbox" name="confirm">
+          </li>
+          <li id="submit-btn">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear" onclick="clean()">
+          </li>
+        </ul>
+      </div>
     </form>
     <footer id="footer">
-      
+
     </footer>
     <figure id="icon">
-      <img src="https://i.pinimg.com/736x/04/73/a9/0473a983d98e2c9f444b0b6051ac453a.jpg" alt="none" >
+      <img src="https://i.pinimg.com/736x/04/73/a9/0473a983d98e2c9f444b0b6051ac453a.jpg" alt="none">
       <p>2021 Maksym Melnyk | mmelnyk@hawk.iit.edu</p>
     </figure>
 
-    
+
   </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="js/site.js"></script>
