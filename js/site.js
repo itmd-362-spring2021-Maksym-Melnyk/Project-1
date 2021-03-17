@@ -1,3 +1,7 @@
+// JavaScript code will be here
+
+
+
 var slides = document.querySelectorAll("#slides .slide");
 var currentSlide = 0;
 var slideInterval = setInterval(nextSlide, 6000);
