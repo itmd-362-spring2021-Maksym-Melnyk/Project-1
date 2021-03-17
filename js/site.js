@@ -15,3 +15,8 @@ function clean() {
   document.getElementById("phone").value = "";
   document.getElementById("name").focus();
 }
+
+function thanks() {
+  window.alert("Thank you!" + "\n" + "Welcome to the community!");
+      clean();
+}
