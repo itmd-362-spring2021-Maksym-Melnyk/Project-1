@@ -15,20 +15,3 @@ function clean() {
   document.getElementById("phone").value = "";
   document.getElementById("name").focus();
 }
-
-function validation() {
-document.getElementById("name").value = name;
-
-if (name = isNaN) {
-
-  window.alert("All good");
-  clean();
-
-} else {
-  window.alert("change to letters");
-}
-// if (tax >= 20 || tax <= 0 || isNaN) {
-//   window.alert("Tax amount needs to be a number greater then 0 and less then 20");
-//   clean();
-// }
-}
