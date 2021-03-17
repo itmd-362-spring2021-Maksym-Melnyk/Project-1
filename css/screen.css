@@ -109,3 +109,16 @@ footer {
     font-size: 250%;
   }
 }
+
+@media screen and (min-width: 40em) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  html {
+
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+  }
+}
