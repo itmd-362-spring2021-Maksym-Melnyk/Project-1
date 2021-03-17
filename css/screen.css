@@ -4,16 +4,11 @@ html {
   background: #4abdac;
   font-family: "Noto Sans JP", sans-serif;
   font-size: 1.125em;
-  /*18 /16 = 1.125*/
   line-height: 1.55555em;
-  /*28 /18 =1.55555em */
-
 }
 
 form {
-
   background-color: #dfdce3;
-
 }
 
 label {
@@ -46,7 +41,7 @@ h2 {
 
 
 
-#slides{
+#slides {
   position: relative;
   height: 48em;
   padding: 0px;
@@ -54,7 +49,7 @@ h2 {
   list-style-type: none;
 }
 
-.slide{
+.slide {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -66,16 +61,15 @@ h2 {
   padding: auto;
   box-sizing: border-box;
   color: white;
-  display:block;
+  display: block;
   height: 40%;
-
   -webkit-transition: opacity 1s;
   -moz-transition: opacity 1s;
   -o-transition: opacity 1s;
   transition: opacity 1s;
 }
 
-.showing{
+.showing {
   opacity: 1;
   z-index: 2;
 }
@@ -88,7 +82,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  display:inline-block;
+  display: inline-block;
   padding: 1.5%;
 }
 
@@ -115,8 +109,8 @@ footer {
     display: inline-block;
     justify-content: center;
   }
-  html {
 
+  html {
     display: inline-block;
     text-align: center;
     justify-content: center;
