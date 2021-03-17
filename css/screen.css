@@ -1,7 +1,7 @@
 html {
   font-size: 16px;
   text-align: center;
-  background: rgb(170, 170, 170);
+  background: #4abdac;
   font-family: "Noto Sans JP", sans-serif;
   font-size: 1.125em;
   /*18 /16 = 1.125*/
@@ -12,7 +12,7 @@ html {
 
 form {
 
-  background-color: grey;
+  background-color: #dfdce3;
 
 }
 
@@ -64,7 +64,7 @@ h2 {
   margin-top: 1%;
   padding: auto;
   box-sizing: border-box;
-  color: #fff;
+  color: white;
   display:block;
   height: 40%;
 
@@ -82,7 +82,7 @@ h2 {
 
 
 footer {
-  background: silver;
+  background: #dfdce3;
   position: relative;
   left: 0;
   bottom: 0;
