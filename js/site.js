@@ -1,4 +1,3 @@
-/*JavaScript added on this page */
 var slides = document.querySelectorAll("#slides .slide");
 var currentSlide = 0;
 var slideInterval = setInterval(nextSlide, 6000);
